@@ -1,0 +1,413 @@
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1{
+  color: #379237;
+  margin-top: 0px;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.6rem;
+  font-weight: bold;
+  margin:50px auto 0 auto;
+  margin-top: 90px;
+}
+
+h2{
+  color: #379237;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  color: #379237;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color:#379237;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border: dotted #C8DBBE 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+
+
+
+.top-container{
+  color:#379237;
+  background-image: url("green1.jpg");
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about{
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.about1{
+  padding-bottom: 80px;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width:500px) {
+  .about-text{
+    padding-left: 15px;
+  }
+}
+
+
+@media only screen and (max-width:500px){
+  .education{
+    padding-left: 15px;
+  }
+}
+
+.cards{
+  width: 20rem; height:18rem; margin:.5rem;
+}
+
+@media only screen and (max-width:500px){
+  .cards{
+    height: 12rem;
+  }
+}
+
+
+
+.row1{
+  font-size: 1.35rem;
+  color: #F8FFDB;
+}
+
+
+.education{
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 700px){
+  .education{
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+
+.sir{
+  color: #379237;
+}
+
+.scroll{
+  padding-top: 10px;
+}
+
+.brand{
+  font-family: 'Montserrat';
+  padding-left: 40px;
+  font-size: 2rem;
+}
+
+.link{
+  padding-right: 100px;
+  font-family: "Ubuntu";
+}
+
+.middle-container{
+  margin: 100px,0;
+  margin-top: 20px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+
+
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-experience{
+  padding-top: 10px;
+}
+
+
+.web-img{
+width: 35%;
+float: left;
+margin-right: 30px;
+}
+
+.machine-img{
+width: 35%;
+float:left;
+margin-right: 30px;
+}
+
+.interested-skills{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.interest{
+  padding-bottom: 100px;
+  font-size: normal;
+  font-weight: normal;
+}
+
+
+
+/*-----skills-section--------*/
+
+.skill{
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px){
+  .skill{
+    padding-bottom: 100px;
+  }
+}
+
+.skills{
+  font-family: "Ubuntu";
+  color: #3C4048;
+
+}
+
+@media only screen and (max-width:600px){
+  .skills{
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width:1000px){
+  .skills{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .skill2{
+    margin-right: 30px;
+  }
+
+
+}
+
+@media only screen and (max-width:1000px){
+  .column2{
+
+    width: 90%;
+    padding-top: 10px;
+
+  }
+}
+
+.column2{
+  font-family: "Ubuntu";
+}
+
+.progress1{
+  margin: 5px;
+}
+
+
+
+.level{
+  display: inline-block;
+}
+
+.span.a{
+  padding-left: 90px;
+}
+
+
+
+
+@media only screen and (max-width:1000px){
+  .skill1{
+    margin: 30px;
+  }
+}
+
+
+
+.lang{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+
+}
+
+.web{
+  text-align: justify;
+
+}
+
+.ml{
+  text-align: justify;
+}
+
+
+
+
+/*---------CONTACT-SECTION--------*/
+
+.contact{
+  paddding-top:80px;
+}
+
+
+
+/*----------FOOTER----------*/
+
+.bottom-container{
+background-color: #82CD47;
+padding: 50px 0 20px;
+}
+
+
+
+.footer-link{
+  margin: 15px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-heading{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Ubuntu",sans-serif;
+  padding-bottom: 90px;
+}
+
+
+.text{
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "ubuntu";
+  padding-left: 30px;
+}
+
+span.a{
+  display: inline-block;
+  padding-right: 10px;
+  color: green;
+}
+
+span.b{
+  display: inline-block;
+}
+
+.head{
+  font-size: 1.1rem;
+  font-family: "ubuntu";
+  font-weight: bold;
+}
+
+.sub-title{
+  font-family: "Poppins"
+}
+
+.contact-row{
+  padding-bottom: 5px;
+}
+
+.name{
+  display: inline-block;
+}
+
+.email{
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .name{
+    width:150px;
+  }
+
+  .email{
+    width:150px;
+  }
+}
+
+.field{
+  margin: 10px;
+}
+
+.button{
+  padding-top: 5px;
+  padding-left: 6px;
+}
+
+.subject{
+  padding-right: 32%;
+}
+
+.textarea{
+  padding-right: 32%;
+}
+
+
+@media only screen and (max-width:600px){
+  .subject{
+    padding-right: 16%;
+  }
+
+  .textarea{
+    padding-right: 16%;
+  }
+
+  .send{
+    padding-top: 10px;
+  }
+}
+
+.info{
+  padding-left: 30px;
+}
